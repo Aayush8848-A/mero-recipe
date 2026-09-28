@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+
+@import "tailwindcss";
+
+@theme {
+  /* 
+    Define your custom colors here. 
+    This generates utility classes like bg-brand-green, text-brand-orange, etc.
+  */
+  
+  --color-brand-green: #1A5E36;   /* The deep green from "Recipe" and "मर" */
+  --color-brand-orange: #F28E2B;  /* The orange from the steam and underline */
+  --color-brand-leaf: #4CAF50;    /* The bright green from the leaves */
+  
+  /* Optional: Semantic naming for easier use */
+  --color-primary: var(--color-brand-green);
+  --color-secondary: var(--color-brand-orange);
+  --color-accent: var(--color-brand-leaf);
+}
